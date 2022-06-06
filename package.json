@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.20.1",
+    "yargs": "^17.5.1"
+  },
+  "name": "sequalize",
+  "description": "��#\u0000 \u0000L\u0000e\u0000a\u0000r\u0000n\u0000i\u0000n\u0000g\u0000S\u0000e\u0000q\u0000u\u0000e\u0000l\u0000i\u0000z\u0000e\u0000\r\u0000 \u0000",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stalius4/LearningSequelize.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stalius4/LearningSequelize/issues"
+  },
+  "homepage": "https://github.com/Stalius4/LearningSequelize#readme"
+}
