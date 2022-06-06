@@ -15,3 +15,18 @@ const Movie = sequelize.define("Movie", {
 });
 
 module.exports = Movie;
+
+
+const Tv = sequelize.define("Tv", {
+    title: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      unique: true,
+    },
+    genre: {
+      type: DataTypes.STRING,
+      defaultValue: "Not specified",
+    },
+  });
+  
+  module.exports = Tv;
