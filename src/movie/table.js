@@ -14,7 +14,6 @@ const Movie = sequelize.define("Movie", {
   },
 });
 
-module.exports = Movie;
 
 
 const Tv = sequelize.define("Tv", {
@@ -29,4 +28,6 @@ const Tv = sequelize.define("Tv", {
     },
   });
   
-  module.exports = Tv;
+  module.exports = {
+      Movie, Tv
+  }
