@@ -16,9 +16,10 @@ exports.addMovie = async (movieObj) => {
 exports.listMovie = async () => {
     try {
         const users = await Movie.findAll();
-        for (let i = 0; i < users.length; i++){
-            console.log(users[i].dataValues.title, users[i].dataValues.actor)
-        }
+        // for (let i = 0; i < users.length; i++){
+        //     console.log(users[i].dataValues.title, users[i].dataValues.actor)
+        // }
+        console.log(users)
     } catch (error) {
       console.log(error);
     }
@@ -68,9 +69,9 @@ exports.addTv = async (movieObj) => {
   
   exports.listTv = async () => {
       try {
-          const users = await Tv.findAll();
-          for (let i = 0; i < users.length; i++){
-              console.log(users[i].dataValues.title, users[i].dataValues.genre)
+          const movies = await Tv.findAll();
+          for (let i = 0; i < movies.length; i++){
+              console.log(movies[i].dataValues.id, movies[i].dataValues.title, movies[i].dataValues.genre)
           }
       } catch (error) {
         console.log(error);
